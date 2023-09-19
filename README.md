@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Simple Shopping Cart
+
+## [](https://github.com/keepgitup/react_basir_18_shopping_cart#lessons)
+
+Lessons
+    Lesson 1.create react app 1.npx create-react-app 2.remove extra files
+    Lesson 2.create website layout 1.add Header, Main and Basket component 2.Style component
