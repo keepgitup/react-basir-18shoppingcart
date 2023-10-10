@@ -1,4 +1,4 @@
-import Header from './components/header';
+import Header from './components/Header';
 import Basket from './components/Basket';
 import Main from './components/Main';
 // import './App.css';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
      <Header />
-     <div>
+     <div className='row'> 
       <Main products={products} />
 <Basket />
 
