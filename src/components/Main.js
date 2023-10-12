@@ -8,7 +8,8 @@ export default function Main(props) {
       <h2>Products</h2>
       <div className="row">
         {products.map((products) => (
-          <div>{products.name}</div>
+          // 這裡插入key被products.id給賦予 因為warning: each child in a list should hv a unique "key" prop.
+          <div key={products.id}>{products.name}</div>
         ))}
       </div>
     </div>
