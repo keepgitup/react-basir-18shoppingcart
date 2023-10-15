@@ -1,5 +1,5 @@
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 
 }
 
@@ -12,25 +12,56 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.row{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+a {
+  text-decoration: none;
 }
 
-.col-1{
+img.small {
+  min-height: 8rem;
+  width: 100%;
+}
+
+
+
+.button {
+  background-color: #fff;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #404040 solid;
+    background-color: #f0c040;
+    width: 100%;
+    cursor: pointer;
+}
+
+.block {
+  background-color: #bee8f7;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-1 {
   flex-basis: 100%;
 }
 
-.col-2{
+.col-2 {
   flex-basis: 100%;
 }
 
 @media screen and(min-width:800px) {
-.col-1{
-  flex: 1;
-}
-.col-2{
-  flex:2;
-}
+  .col-1 {
+    flex: 1;
+  }
+
+  .col-2 {
+    flex: 2;
+  }
 }

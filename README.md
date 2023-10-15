@@ -73,6 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## [](https://github.com/keepgitup/react_basir_18_shopping_cart#lessons)
 
-Lessons
-    Lesson 1.create react app 1.npx create-react-app 2.remove extra files
-    Lesson 2.create website layout 1.add Header, Main and Basket component 2.Style component
+## Lessons
+- 1. create react app 1.npx create-react-app 2.remove extra files
+- 2. create website layout 1.add Header, Main and Basket component 2.Style component
+- 3. create Main component 1.create data.js 2.render product items
+- 4. create Product component 1.create product divs 2.pass props to product component
+- 5. Implement cart 1.add & remove items form the cart
